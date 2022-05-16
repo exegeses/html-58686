@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(205, 205, 205);
+}
+header{
+    width: 900px;
+    margin: auto; /* centrar una caja */
+    height: 70px;
+    background-color: rgb(229, 229, 228);
+}
+/* navegación */
+nav{
+    text-align: center;
+}
+    nav a{
+        text-decoration: none;/* quitar subrayado */
+        color: #666;
+    }
+
+main{
+    width: 900px;
+    margin: auto; /* centrar una caja */
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    width: 900px;
+    margin: auto; /* centrar una caja */
+    height: 150px;
+    background-color: rgb(91, 91, 91);;
+}
