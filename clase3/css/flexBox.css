@@ -1,0 +1,24 @@
+#contenedor{
+    /* centrar una caja */
+    width: 550px;
+    margin: auto; /* combinando un ancho y margin:auto se centra una caja */
+
+    /* Flexbox */
+    display: flex; /* una caja al lado de la otra */
+    /* justify-content: center; /* centrar el contenido */
+    justify-content: space-between;
+
+    height: 200px;
+    background-color: rgb(249, 211, 142);
+}
+
+    #rojo{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 101, 101);
+    }
+    #verde{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(101, 255, 142);
+    }

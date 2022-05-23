@@ -1,0 +1,14 @@
+
+#foto{
+    height: 450px;
+    background-image: url(../imagenes/faro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* https://cssgradient.io/ */
+#gradiente{
+    height: 450px;
+    background: rgb(237,251,63);
+background: linear-gradient(180deg, rgba(237,251,63,1) 0%, rgba(255,75,111,1) 100%);
+}
