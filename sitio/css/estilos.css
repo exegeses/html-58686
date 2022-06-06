@@ -45,6 +45,41 @@ header{
 main{
     min-height: 600px;
 }
+/* sección index */
+    #heroIndex{
+        height: 450px;
+        background-image: url(../imagenes/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 -100px;
+
+        display: flex;
+        align-items: center;
+    }
+    #h1Hero{
+        width: 1100px;
+        margin: auto;   
+    }
+        #h1Hero h1{
+            color: #F7BB74;
+            font-size: 48px;
+            width: 280px;
+        }
+        #h1Hero p{
+            width: 330px;
+        }
+
+    h2{
+        color: #F7BB74;
+        text-align: center;
+        padding-top: 60px;
+    }
+    #parrafoIndex{
+        text-align: center;
+        width: 680px;
+        margin: auto;
+        padding-top: 30px;
+    }
 
 /* footer */
 footer{
