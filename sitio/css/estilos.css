@@ -44,6 +44,7 @@ header{
 /* contenido central */    
 main{
     min-height: 600px;
+    padding-bottom: 200px;
 }
 /* sección index */
     #heroIndex{
@@ -56,18 +57,18 @@ main{
         display: flex;
         align-items: center;
     }
-    #h1Hero{
-        width: 1100px;
-        margin: auto;   
-    }
-        #h1Hero h1{
-            color: #F7BB74;
-            font-size: 48px;
-            width: 280px;
+        #h1Hero{
+            width: 1100px;
+            margin: auto;   
         }
-        #h1Hero p{
-            width: 330px;
-        }
+            #h1Hero h1{
+                color: #F7BB74;
+                font-size: 48px;
+                width: 280px;
+            }
+            #h1Hero p{
+                width: 330px;
+            }
 
     h2{
         color: #F7BB74;
@@ -80,6 +81,18 @@ main{
         margin: auto;
         padding-top: 30px;
     }
+
+/* artículos index */    
+    #articulosIndex{
+        width: 1100px;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+        #articulosIndex article{
+            width: 339px;    
+        }
 
 /* footer */
 footer{
